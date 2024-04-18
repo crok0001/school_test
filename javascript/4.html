@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var sum = 0;
+        var all = 0;
+        var sum2 = 0;
+        let count = 0;
+        for(let i = 0; i <= 100; i++){
+            count++
+            all += i;
+            if(i % 2 == 0){
+                sum += i;
+            }else{
+                sum2 += i;
+            }
+        }
+        document.write('홀수의 합:'+sum2+'</br>');
+        document.write('짝수의 합'+sum+'</br>');
+        document.write('전체의 합'+all+'</br>');
+        document.write('반복횟수:'+count+'</br>');
+    </script>
+</body>
+</html>

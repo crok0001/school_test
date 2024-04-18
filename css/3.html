@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div#wrap{
+            width: 900px;
+            min-height: 300px;
+            margin: 0 auto;
+            color: #fff;
+        }
+
+        header, footer, nav, aside, section{
+            border: 1px solid gray;
+            padding: 10px;
+        }
+
+        header{
+            height: 50px;
+            background-color: skyblue;
+            margin-bottom: 10px;
+        }
+        aside, section, nav{
+            float: left;
+            box-sizing: border-box;
+            height: 500px;
+        }
+        main{
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+
+        nav, aside{
+            background-color: pink;
+            width: 100px;
+        }
+        nav{
+            margin-right: 10px;
+        }
+
+        aside{
+            margin-left: 10px;
+        }
+        
+        section{
+            width: 680px;
+            background-color: lightgreen;
+        }
+
+        footer{
+            background-color: skyblue;
+            height: 50px;
+        }
+        
+        nav ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li{
+            width: 100%;
+            text-align: center;
+        }
+
+        nav ul li:hover{
+            color: black;
+            cursor: pointer;
+        }
+
+        article{
+            margin: 20px;
+            background-color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <p>header</p>
+        </header>
+        <main>
+            <nav>
+                <p>nav</p>
+                <ul>
+                    <li>menu-1</li>
+                    <li>menu-2</li>
+                    <li>menu-3</li>
+                </ul>
+            </nav>
+            <section>
+                <p>section</p>
+                <article>
+                    <p>article</p>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis suscipit temporibus vel labore similique quod tempora harum, exercitationem sequi rerum dolorum corrupti voluptatem ut maiores mollitia eius magni maxime at? Tenetur temporibus modi dolore repellat aut rerum harum quaerat illum suscipit quae fugiat ex voluptas ipsa dolor earum necessitatibus, laboriosam praesentium quos voluptatum veniam corrupti quas quisquam eaque provident? Voluptas alias laudantium facere reiciendis quae sit in illum, doloremque qui quas eum culpa neque beatae repudiandae inventore accusantium quasi temporibus minus ex possimus provident sint dolorum explicabo delectus! Tenetur in nesciunt similique quaerat sapiente tempore itaque, facere non deserunt distinctio!</P>
+                </article>
+            </section>
+            <aside>
+                <p>aside</p>
+            </aside>
+        </main>
+        <footer>
+            <p>footer</p>
+        </footer>
+
+    </div>
+</body>
+</html>

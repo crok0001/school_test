@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./web/css/sd.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제목</title>
+</head>
+<body>
+     <form>
+          <!-- table>(tr>td*#)*# -->
+          <table border="1">
+                    <tr class="h1">
+                         <th colspan="2">회원가입</th>
+                    </tr>
+                    <tr>
+                         <th>이메일</th>
+                         <th><input type="email" name="email" placeholder="neo@naver.com" required autofocus tabindex="1" autocomplete="off"></th>
+                    </tr>
+                    <tr>
+                         <th>이름</th>
+                         <th><input type="text" value="네오" required tabindex="4"/></th>
+                    </tr>
+                    <tr>
+                         <th>비밀번호</th>
+                         <th><input type="password" value="ssssss" required tabindex="2"/></th>
+                    </tr>
+                    <tr>
+                         <th>비밀번호확인</th>
+                         <th><input type="password" value="ssssssa" required tabindex="3"/></th>
+                    </tr>
+                    <tr>
+                         <th>성별</th>
+                         <th><input type="radio" name="1" required/> 남자 <input type="radio" name="1" required checked/>여자</th>
+                    </tr>
+                    <tr>
+                         <th class="box">나이</th>
+                         <th><input type="number++" placeholder="숫자를 입력하세요" required/></th>
+                    </tr>
+                    <tr>
+                         <th colspan="2"><input type="submit" value="회원가입"/> <input type="reset" /> <input type="button" value="로그인"> <button type="submit">제출</button>  <button type="button">확인</button></th>
+                    </tr>
+                    
+          </table>
+     </form>
+
+</body>
+</html>
