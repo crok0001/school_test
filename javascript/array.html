@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let scores = new Array();
+        scores = [];
+
+        for(let i = 0; i < 4; i++){
+            let score = prompt((i+1)+"번째 점수를 입력하세요.");
+            scores.push(score);
+        }
+
+        max = min = scores[0];
+
+        for(let i = 0; i < scores.length; i++){
+            if(scores[i] > max){
+                max = scores[i];
+            }
+            if(scores[i] < min){
+                min = scores[i];
+            }
+        }
+        console.log(max);
+        console.log(min);
+  
+    </script>
+</body>
+</html>
